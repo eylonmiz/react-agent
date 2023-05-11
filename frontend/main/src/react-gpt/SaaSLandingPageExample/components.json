@@ -1,0 +1,531 @@
+[
+  {
+    "type": "organism",
+    "name": "Header",
+    "layout": "flex justify-between items-center px-4 py-2",
+    "description": "Header with company logo, navigation menu, and sign up button",
+    "components": [
+      {
+        "type": "atom",
+        "name": "CompanyLogo",
+        "layout": "w-32 h-8",
+        "description": "Company logo",
+        "components": []
+      },
+      {
+        "type": "molecule",
+        "name": "NavigationMenu",
+        "layout": "hidden md:flex space-x-4",
+        "description": "Navigation menu with Product, Pricing, Support, Login, Sign Up links",
+        "components": []
+      },
+      {
+        "type": "atom",
+        "name": "SignUpButton",
+        "layout": "w-32 h-8",
+        "description": "Sign Up for Free Trial button",
+        "components": []
+      }
+    ],
+    "uiComponents": [
+      "NavigationMenu",
+      "Button"
+    ]
+  },
+  {
+    "type": "molecule",
+    "name": "NavigationMenu",
+    "layout": "hidden md:flex space-x-4",
+    "description": "Navigation menu with Product, Pricing, Support, Login, Sign Up links",
+    "components": [],
+    "uiComponents": [
+      "NavigationMenu"
+    ]
+  },
+  {
+    "type": "organism",
+    "name": "HeroSection",
+    "layout": "flex flex-col items-center justify-center text-center px-4 py-8",
+    "description": "Hero section with headline, subheadline, and CTA button",
+    "components": [
+      {
+        "type": "atom",
+        "name": "HeroHeadline",
+        "layout": "text-4xl font-semibold mb-4",
+        "description": "Headline: Simplify Your Customer Relationships with Our All-in-One CRM Solution",
+        "components": []
+      },
+      {
+        "type": "atom",
+        "name": "HeroSubHeadline",
+        "layout": "text-2xl mb-4",
+        "description": "Sub-headline: Empower your sales, marketing, and support teams with a single platform that drives growth and boosts customer satisfaction.",
+        "components": []
+      },
+      {
+        "type": "atom",
+        "name": "HeroCtaButton",
+        "layout": "w-48 h-12",
+        "description": "CTA button: Get Started with a Free Trial",
+        "components": []
+      }
+    ],
+    "uiComponents": [
+      "Typography",
+      "Button"
+    ]
+  },
+  {
+    "type": "organism",
+    "name": "KeyFeatures",
+    "layout": "grid gap-8 md:grid-cols-2 lg:grid-cols-4 px-4 py-8",
+    "description": "Key features section presenting four main features of the CRM solution",
+    "components": [
+      {
+        "type": "molecule",
+        "name": "Feature",
+        "layout": "flex flex-col items-center space-y-4",
+        "description": "Container for each key feature",
+        "components": [
+          {
+            "type": "atom",
+            "name": "FeatureTitle",
+            "layout": "text-xl font-semibold",
+            "description": "Title for each key feature",
+            "components": []
+          },
+          {
+            "type": "atom",
+            "name": "FeatureDescription",
+            "layout": "text-base",
+            "description": "Description for each key feature",
+            "components": []
+          }
+        ]
+      }
+    ],
+    "uiComponents": [
+      "Typography",
+      "Button"
+    ]
+  },
+  {
+    "type": "molecule",
+    "name": "Feature",
+    "layout": "flex flex-col items-center space-y-4",
+    "description": "Container for each key feature",
+    "components": [
+      {
+        "type": "atom",
+        "name": "FeatureTitle",
+        "layout": "text-xl font-semibold",
+        "description": "Title for each key feature",
+        "components": []
+      },
+      {
+        "type": "atom",
+        "name": "FeatureDescription",
+        "layout": "text-base",
+        "description": "Description for each key feature",
+        "components": []
+      }
+    ],
+    "uiComponents": [
+      "Typography",
+      "Button"
+    ]
+  },
+  {
+    "type": "organism",
+    "name": "Testimonials",
+    "layout": "flex flex-col items-center space-y-8 px-4 py-8",
+    "description": "Testimonials section with customer quotes and trust seals or awards",
+    "components": [
+      {
+        "type": "molecule",
+        "name": "CustomerQuote",
+        "layout": "flex flex-col items-center space-y-4",
+        "description": "Customer quote with name, title, and company logo",
+        "components": []
+      },
+      {
+        "type": "atom",
+        "name": "TrustSeals",
+        "layout": "flex flex-wrap justify-center items-center space-x-4",
+        "description": "Trust seals or awards, if applicable",
+        "components": []
+      }
+    ],
+    "uiComponents": [
+      "Typography",
+      "Button"
+    ]
+  },
+  {
+    "type": "molecule",
+    "name": "CustomerQuote",
+    "layout": "flex flex-col items-center space-y-4",
+    "description": "Customer quote with name, title, and company logo",
+    "components": [],
+    "uiComponents": [
+      "Typography"
+    ]
+  },
+  {
+    "type": "organism",
+    "name": "PricingSection",
+    "layout": "flex flex-col items-center space-y-8 px-4 py-8",
+    "description": "Pricing section with pricing plans, comparison table, and CTA",
+    "components": [
+      {
+        "type": "molecule",
+        "name": "PricingOverview",
+        "layout": "flex flex-col items-center space-y-4",
+        "description": "Overview of pricing plans and key features",
+        "components": []
+      },
+      {
+        "type": "atom",
+        "name": "PricingCtaButton",
+        "layout": "w-32 h-8",
+        "description": "CTA button: Choose Your Plan",
+        "components": []
+      }
+    ],
+    "uiComponents": [
+      "Box",
+      "Button"
+    ]
+  },
+  {
+    "type": "molecule",
+    "name": "PricingOverview",
+    "layout": "flex flex-col items-center space-y-4",
+    "description": "Overview of pricing plans and key features",
+    "components": [],
+    "uiComponents": [
+      "Box",
+      "Typography"
+    ]
+  },
+  {
+    "type": "organism",
+    "name": "DemoRequest",
+    "layout": "flex flex-col items-center justify-center text-center px-4 py-8",
+    "description": "Demo request section with headline, description, and CTA",
+    "components": [
+      {
+        "type": "atom",
+        "name": "DemoHeadline",
+        "layout": "text-2xl font-semibold mb-4",
+        "description": "Headline: Experience the Power of Our CRM Solution",
+        "components": []
+      },
+      {
+        "type": "atom",
+        "name": "DemoDescription",
+        "layout": "text-base mb-4",
+        "description": "Description: Request a personalized demo to discover how our CRM platform can transform your business.",
+        "components": []
+      },
+      {
+        "type": "atom",
+        "name": "DemoCtaButton",
+        "layout": "w-48 h-12",
+        "description": "CTA button: Request a Demo",
+        "components": []
+      }
+    ],
+    "uiComponents": [
+      "Typography",
+      "Button"
+    ]
+  },
+  {
+    "type": "organism",
+    "name": "Footer",
+    "layout": "flex flex-col items-center space-y-4 px-4 py-4",
+    "description": "Footer with company logo, contact info, social media links, and privacy policy/terms of service links",
+    "components": [
+      {
+        "type": "atom",
+        "name": "FooterLogo",
+        "layout": "w-32 h-8",
+        "description": "Company logo in footer",
+        "components": []
+      },
+      {
+        "type": "molecule",
+        "name": "ContactInfo",
+        "layout": "flex flex-col items-center space-y-1",
+        "description": "Contact information, such as email and phone",
+        "components": []
+      },
+      {
+        "type": "molecule",
+        "name": "SocialMediaLinks",
+        "layout": "flex space-x-4",
+        "description": "Links to social media profiles",
+        "components": []
+      },
+      {
+        "type": "molecule",
+        "name": "LegalLinks",
+        "layout": "flex space-x-4",
+        "description": "Links to Privacy Policy and Terms of Service",
+        "components": []
+      }
+    ],
+    "uiComponents": [
+      "Typography"
+    ]
+  },
+  {
+    "type": "molecule",
+    "name": "ContactInfo",
+    "layout": "flex flex-col items-center space-y-1",
+    "description": "Contact information, such as email and phone",
+    "components": [],
+    "uiComponents": [
+      "Typography"
+    ]
+  },
+  {
+    "type": "molecule",
+    "name": "SocialMediaLinks",
+    "layout": "flex space-x-4",
+    "description": "Links to social media profiles",
+    "components": [],
+    "uiComponents": [
+      "Box"
+    ]
+  },
+  {
+    "type": "molecule",
+    "name": "LegalLinks",
+    "layout": "flex space-x-4",
+    "description": "Links to Privacy Policy and Terms of Service",
+    "components": [],
+    "uiComponents": [
+      "Typography",
+      "Button"
+    ]
+  },
+  {
+    "type": "page",
+    "name": "SaasCrmLandingPage",
+    "layout": "flex flex-col",
+    "description": "Landing page for SaaS CRM product",
+    "components": [
+      {
+        "type": "organism",
+        "name": "Header",
+        "layout": "flex justify-between items-center px-4 py-2",
+        "description": "Header with company logo, navigation menu, and sign up button",
+        "components": [
+          {
+            "type": "atom",
+            "name": "CompanyLogo",
+            "layout": "w-32 h-8",
+            "description": "Company logo",
+            "components": []
+          },
+          {
+            "type": "molecule",
+            "name": "NavigationMenu",
+            "layout": "hidden md:flex space-x-4",
+            "description": "Navigation menu with Product, Pricing, Support, Login, Sign Up links",
+            "components": []
+          },
+          {
+            "type": "atom",
+            "name": "SignUpButton",
+            "layout": "w-32 h-8",
+            "description": "Sign Up for Free Trial button",
+            "components": []
+          }
+        ]
+      },
+      {
+        "type": "organism",
+        "name": "HeroSection",
+        "layout": "flex flex-col items-center justify-center text-center px-4 py-8",
+        "description": "Hero section with headline, subheadline, and CTA button",
+        "components": [
+          {
+            "type": "atom",
+            "name": "HeroHeadline",
+            "layout": "text-4xl font-semibold mb-4",
+            "description": "Headline: Simplify Your Customer Relationships with Our All-in-One CRM Solution",
+            "components": []
+          },
+          {
+            "type": "atom",
+            "name": "HeroSubHeadline",
+            "layout": "text-2xl mb-4",
+            "description": "Sub-headline: Empower your sales, marketing, and support teams with a single platform that drives growth and boosts customer satisfaction.",
+            "components": []
+          },
+          {
+            "type": "atom",
+            "name": "HeroCtaButton",
+            "layout": "w-48 h-12",
+            "description": "CTA button: Get Started with a Free Trial",
+            "components": []
+          }
+        ]
+      },
+      {
+        "type": "organism",
+        "name": "KeyFeatures",
+        "layout": "grid gap-8 md:grid-cols-2 lg:grid-cols-4 px-4 py-8",
+        "description": "Key features section presenting four main features of the CRM solution",
+        "components": [
+          {
+            "type": "molecule",
+            "name": "Feature",
+            "layout": "flex flex-col items-center space-y-4",
+            "description": "Container for each key feature",
+            "components": [
+              {
+                "type": "atom",
+                "name": "FeatureTitle",
+                "layout": "text-xl font-semibold",
+                "description": "Title for each key feature",
+                "components": []
+              },
+              {
+                "type": "atom",
+                "name": "FeatureDescription",
+                "layout": "text-base",
+                "description": "Description for each key feature",
+                "components": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "organism",
+        "name": "Testimonials",
+        "layout": "flex flex-col items-center space-y-8 px-4 py-8",
+        "description": "Testimonials section with customer quotes and trust seals or awards",
+        "components": [
+          {
+            "type": "molecule",
+            "name": "CustomerQuote",
+            "layout": "flex flex-col items-center space-y-4",
+            "description": "Customer quote with name, title, and company logo",
+            "components": []
+          },
+          {
+            "type": "atom",
+            "name": "TrustSeals",
+            "layout": "flex flex-wrap justify-center items-center space-x-4",
+            "description": "Trust seals or awards, if applicable",
+            "components": []
+          }
+        ]
+      },
+      {
+        "type": "organism",
+        "name": "PricingSection",
+        "layout": "flex flex-col items-center space-y-8 px-4 py-8",
+        "description": "Pricing section with pricing plans, comparison table, and CTA",
+        "components": [
+          {
+            "type": "molecule",
+            "name": "PricingOverview",
+            "layout": "flex flex-col items-center space-y-4",
+            "description": "Overview of pricing plans and key features",
+            "components": []
+          },
+          {
+            "type": "atom",
+            "name": "PricingCtaButton",
+            "layout": "w-32 h-8",
+            "description": "CTA button: Choose Your Plan",
+            "components": []
+          }
+        ]
+      },
+      {
+        "type": "organism",
+        "name": "DemoRequest",
+        "layout": "flex flex-col items-center justify-center text-center px-4 py-8",
+        "description": "Demo request section with headline, description, and CTA",
+        "components": [
+          {
+            "type": "atom",
+            "name": "DemoHeadline",
+            "layout": "text-2xl font-semibold mb-4",
+            "description": "Headline: Experience the Power of Our CRM Solution",
+            "components": []
+          },
+          {
+            "type": "atom",
+            "name": "DemoDescription",
+            "layout": "text-base mb-4",
+            "description": "Description: Request a personalized demo to discover how our CRM platform can transform your business.",
+            "components": []
+          },
+          {
+            "type": "atom",
+            "name": "DemoCtaButton",
+            "layout": "w-48 h-12",
+            "description": "CTA button: Request a Demo",
+            "components": []
+          }
+        ]
+      },
+      {
+        "type": "organism",
+        "name": "Footer",
+        "layout": "flex flex-col items-center space-y-4 px-4 py-4",
+        "description": "Footer with company logo, contact info, social media links, and privacy policy/terms of service links",
+        "components": [
+          {
+            "type": "atom",
+            "name": "FooterLogo",
+            "layout": "w-32 h-8",
+            "description": "Company logo in footer",
+            "components": []
+          },
+          {
+            "type": "molecule",
+            "name": "ContactInfo",
+            "layout": "flex flex-col items-center space-y-1",
+            "description": "Contact information, such as email and phone",
+            "components": []
+          },
+          {
+            "type": "molecule",
+            "name": "SocialMediaLinks",
+            "layout": "flex space-x-4",
+            "description": "Links to social media profiles",
+            "components": []
+          },
+          {
+            "type": "molecule",
+            "name": "LegalLinks",
+            "layout": "flex space-x-4",
+            "description": "Links to Privacy Policy and Terms of Service",
+            "components": []
+          }
+        ]
+      }
+    ],
+    "uiComponents": [
+      "Typography",
+      "Button",
+      "DialogContent",
+      "DialogTrigger",
+      "AlertDialogTrigger",
+      "AlertDialogTitle",
+      "AlertDialogContent",
+      "AlertDialogDescription",
+      "AlertDialogCancel",
+      "AlertDialogAction"
+    ]
+  }
+]

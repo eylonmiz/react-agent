@@ -1,0 +1,272 @@
+{
+  "type": "page",
+  "name": "AnalyticsDashboardPage",
+  "layout": "hidden flex-col md:flex",
+  "description": "SaaS Subscription Analytics Dashboard",
+  "components": [
+    {
+      "type": "organism",
+      "name": "Header",
+      "layout": "flex h-16 items-center px-4 border-b",
+      "description": "",
+      "components": [
+        {
+          "type": "molecule",
+          "name": "TeamSwitcher",
+          "layout": "",
+          "description": "",
+          "components": [
+            {
+              "type": "atom",
+              "name": "Button",
+              "layout": "h-8 w-40",
+              "description": "",
+              "components": []
+            }
+          ]
+        },
+        {
+          "type": "molecule",
+          "name": "DashboardNav",
+          "layout": "flex items-center space-x-4 lg:space-x-6 mx-6",
+          "description": "",
+          "components": [
+            {
+              "type": "atom",
+              "name": "NavItems",
+              "layout": "h-8 w-60",
+              "description": "",
+              "components": []
+            }
+          ]
+        },
+        {
+          "type": "atom",
+          "name": "HeaderActions",
+          "layout": "ml-auto flex items-center space-x-4",
+          "description": "",
+          "components": [
+            {
+              "type": "atom",
+              "name": "SearchInput",
+              "layout": "h-9 md:w-[100px] lg:w-[300px]",
+              "description": "",
+              "components": []
+            },
+            {
+              "type": "molecule",
+              "name": "UserNav",
+              "layout": "",
+              "description": "",
+              "components": [
+                {
+                  "type": "atom",
+                  "name": "Button",
+                  "layout": "relative h-8 w-8 rounded-full",
+                  "description": "",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "atom",
+      "name": "DashboardContent",
+      "layout": "flex-1 space-y-4 p-8 pt-6",
+      "description": "",
+      "components": [
+        {
+          "type": "organism",
+          "name": "SubHeader",
+          "layout": "flex items-center justify-between space-y-2",
+          "description": "",
+          "components": [
+            {
+              "type": "atom",
+              "name": "SubHeaderTypography",
+              "layout": "w-32 h-8",
+              "description": "",
+              "components": []
+            },
+            {
+              "type": "atom",
+              "name": "SubHeaderActions",
+              "layout": "flex items-center space-x-2",
+              "description": "",
+              "components": [
+                {
+                  "type": "atom",
+                  "name": "CalendarContainer",
+                  "layout": "grid gap-2",
+                  "description": "",
+                  "components": [
+                    {
+                      "type": "atom",
+                      "name": "CalendarPopover",
+                      "layout": "w-48 h-8",
+                      "description": "",
+                      "components": []
+                    }
+                  ]
+                },
+                {
+                  "type": "atom",
+                  "name": "DownloadButton",
+                  "layout": "w-24 h-8",
+                  "description": "",
+                  "components": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "atom",
+          "name": "Tabs",
+          "layout": "space-y-4",
+          "description": "",
+          "components": [
+            {
+              "type": "organism",
+              "name": "TabNav",
+              "layout": "w-80 inline-flex h-10 items-center justify-center rounded-md bg-muted p-1 text-muted-foreground",
+              "description": "",
+              "components": []
+            },
+            {
+              "type": "atom",
+              "name": "TabsContent",
+              "layout": "mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 space-y-4",
+              "description": "",
+              "components": [
+                {
+                  "type": "organism",
+                  "name": "SmallCardsContainer",
+                  "layout": "grid gap-4 md:grid-cols-2 lg:grid-cols-4",
+                  "description": "",
+                  "components": [
+                    {
+                      "type": "molecule",
+                      "name": "TotalRevenueCard",
+                      "layout": "p-4 rounded-lg border bg-card text-card-foreground shadow-sm",
+                      "description": "",
+                      "components": [
+                        {
+                          "type": "atom",
+                          "name": "TotalRevenueCardContent",
+                          "layout": "h-24",
+                          "description": "",
+                          "components": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "molecule",
+                      "name": "SubscriptionsCard",
+                      "layout": "p-4 rounded-lg border bg-card text-card-foreground shadow-sm",
+                      "description": "",
+                      "components": [
+                        {
+                          "type": "atom",
+                          "name": "SubscriptionsCardContent",
+                          "layout": "h-24",
+                          "description": "",
+                          "components": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "molecule",
+                      "name": "SalesCard",
+                      "layout": "p-4 rounded-lg border bg-card text-card-foreground shadow-sm",
+                      "description": "",
+                      "components": [
+                        {
+                          "type": "atom",
+                          "name": "SalesCardContent",
+                          "layout": "h-24",
+                          "description": "",
+                          "components": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "molecule",
+                      "name": "ActiveNowCard",
+                      "layout": "p-4 rounded-lg border bg-card text-card-foreground shadow-sm",
+                      "description": "",
+                      "components": [
+                        {
+                          "type": "atom",
+                          "name": "ActiveNowCardContent",
+                          "layout": "h-24",
+                          "description": "",
+                          "components": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "organism",
+                  "name": "BigCardsContainer",
+                  "layout": "grid gap-4 md:grid-cols-2 lg:grid-cols-7",
+                  "description": "",
+                  "components": [
+                    {
+                      "type": "molecule",
+                      "name": "OverviewCard",
+                      "layout": "col-span-4 p-4 rounded-lg border bg-card text-card-foreground shadow-sm",
+                      "description": "",
+                      "components": [
+                        {
+                          "type": "atom",
+                          "name": "CardHeader",
+                          "layout": "w-40 h-8 mb-4",
+                          "description": "",
+                          "components": []
+                        },
+                        {
+                          "type": "atom",
+                          "name": "OverviewCardContent",
+                          "layout": "w-full h-80",
+                          "description": "",
+                          "components": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": "molecule",
+                      "name": "RecentSalesCard",
+                      "layout": "col-span-3 p-4 rounded-lg border bg-card text-card-foreground shadow-sm",
+                      "description": "",
+                      "components": [
+                        {
+                          "type": "atom",
+                          "name": "CardHeader",
+                          "layout": "w-40 h-8 mb-4",
+                          "description": "",
+                          "components": []
+                        },
+                        {
+                          "type": "atom",
+                          "name": "RecentSalesCardContent",
+                          "layout": "w-full h-80",
+                          "description": "",
+                          "components": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ReactGPT",
+  "short_name": "ReactGPT",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "logo/logo_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}
