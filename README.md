@@ -10,10 +10,14 @@
   <p align="center">
     <h3>The open-source React LLM Agent</h3>
     <br />
-    <a href="https://tutim.io/gpt"><strong>Learn more »</strong></a>
+    <a href="https://www.loom.com/share/658adb2869174e81a39a0a2cdcfec4eb"><strong>Watch Demo »</strong></a>
     <br />
     <br />
     <a href="https://tutim.io/gpt">Website</a>
+    ·
+    <a href="https://www.loom.com/share/658adb2869174e81a39a0a2cdcfec4eb">Watch Demo</a>
+    ·
+    <a href="https://github.com/tutim-io/react-gpt/pull/1/files">Demo Code Example</a>
     ·
     <a href="https://discord.tutim.io">Discord</a>
   </p>
@@ -23,7 +27,6 @@
  
  
 [![Demo](https://res.cloudinary.com/tutim/image/upload/v1683756121/ReactGPT/ReactGPT-gif_dk4aac.gif)](https://www.tutim.io/gpt)
-
   
 </div>
 
@@ -74,6 +77,9 @@ Read the Project Customization Section to learn how to customize and operate the
 
 ## 📚 Documentation
 - Docs and architecture in architecture folder
+- <a href="https://github.com/tutim-io/react-gpt/blob/main/arch.md">Feature Flow</a>
+- <a href="https://github.com/tutim-io/react-gpt/blob/main/architecture/Design%20Document%20Overview.md">Raw Design Docs</a>
+- <a href="https://github.com/tutim-io/react-gpt/blob/main/personal-note.md">Personal Note</a>
 ## PRD / User Story to code
 <a href="https://res.cloudinary.com/tutim/image/upload/v1683750575/ReactGPT/Feature_Flow_f8ih6c.jpg" target="_blank">
 <img src="https://res.cloudinary.com/tutim/image/upload/v1683751641/ReactGPT/min-feature-flow_xkeyb5.png" alt="Feature Flow"/>
