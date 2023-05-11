@@ -1,0 +1,23 @@
+{
+  "name": "@react-gpt/backend-main",
+  "version": "0.0.1",
+  "description": "React GPT",
+  "license": "MIT",
+  "author": "eylonmiz <eylon@tutim.io>",
+  "repository": "https://github.com/tutim-io/react-gpt",
+  "scripts": {
+    "dev": "ts-node-dev index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.2.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13"
+  }
+}
