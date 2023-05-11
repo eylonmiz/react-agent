@@ -9,8 +9,8 @@ import AnalyticsDashboardPageExampleDemo from './react-gpt/AnalyticsDashboardExa
 import landingPageJsonComposition from './react-gpt/SaaSLandingPageExample/composition.json';
 import SaasCrmLandingPageDemo from './react-gpt/SaaSLandingPageExample/demo';
 
-// import jsonComposition from './react-gpt/AnalyticsDashboard/composition.json';
-// import AnalyticsDashboardPageDemo from './react-gpt/AnalyticsDashboard/demo';
+import jsonComposition from './react-gpt/AnalyticsDashboard/composition.json';
+import AnalyticsDashboardPageDemo from './react-gpt/AnalyticsDashboard/demo';
 
 // Example of generated React component from the JSON composition
 const DashboardExample = () => {
@@ -26,15 +26,15 @@ const SaasCrmLandingPageExample = () => {
 // Uncomment after implementing the AnalyticsDashboard component (yarn backend:dev (read README.md))
 // You might need to do some debugging as the generated code is not perfect nor production ready yet
 const AnalyticsDashboard = () => {
-  // return <AnalyticsDashboardPageDemo />;
+  return <AnalyticsDashboardPageDemo />;
   // return <JsonSkeleton json={jsonComposition} />;
 };
 
 function App() {
   return (
     <BrowserRouter>
-      <DashboardExample />
-      {/* <AnalyticsDashboard /> */}
+      {/* <DashboardExample /> */}
+      <AnalyticsDashboard />
       {/* <SaasCrmLandingPageExample /> */}
     </BrowserRouter>
   );
