@@ -139,7 +139,7 @@ As an autonomous experiment, React-GPT may generate content or take actions that
 By using React-GPT, you agree to indemnify, defend, and hold harmless the developers, contributors, and any affiliated parties from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from your use of this software or your violation of these terms.
 
 ## 👨‍💻 Contribution
-- Special thanks to https://github.com/shadcn/ui for the UI components library that made this project much easier to build.
+- Special thanks to https://github.com/shadcn/ui for the UI components library that made this project much easier to build
 ### 💪 By the community, for the community
 
 ![](https://contrib.rocks/image?repo=tutim-io/react-gpt)
