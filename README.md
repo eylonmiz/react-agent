@@ -1,4 +1,4 @@
-# ReactGPT - The open-source React LLM Agent
+# ReactGPT - The open-source React.js LLM Agent
 <div align="center">
   <a href="https://tutim.io/gpt" target="_blank">
   <picture>
@@ -8,7 +8,7 @@
 
 
   <p align="center">
-    <h3>The open-source React LLM Agent</h3>
+    <h3>The open-source React.js LLM Agent</h3>
     <br />
     <a href="https://www.loom.com/share/658adb2869174e81a39a0a2cdcfec4eb"><strong>Watch Demo »</strong></a>
     <br />
