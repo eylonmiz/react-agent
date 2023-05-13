@@ -23,10 +23,14 @@
   </p>
 </p>
 
+
+
+
+
 [![MIT License](https://img.shields.io/github/license/tutim-io/react-gpt)](https://github.com/tutim-io/react-gpt/blob/main/LICENSE) [![Number of GitHub stars](https://img.shields.io/github/stars/tutim-io/react-gpt?logo=github)](https://github.com/tutim-io/react-gpt/stargazers) [![Discord is Live](https://img.shields.io/badge/Discord-Live-green?logo=discord&logoColor=%23fff)](https://discord.tutim.io) [![Docs are updated](https://img.shields.io/badge/docs-updated-green?color=blue)](https://docs.tutim.io) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-Launch%20soon-orange?logo=producthunt&logoColor=%23fff)](https://www.producthunt.com/@eylonmiz)
  
  
-[![Demo](https://res.cloudinary.com/tutim/image/upload/v1683756121/ReactGPT/ReactGPT-gif_dk4aac.gif)](https://www.tutim.io/gpt)
+[![Demo](https://github.com/tutim-io/react-gpt/assets/43254163/366284d4-f7fb-44cb-8b65-88d78aca7374)](https://www.tutim.io/gpt)
   
 </div>
 
