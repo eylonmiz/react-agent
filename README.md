@@ -99,7 +99,7 @@ Read the Project Customization Section to learn how to customize and operate the
 
 ## 🛠️ Project Customization
 1. Customize workflow:
-   - file: backend/main/react-gen/generateComponents.ts
+   - file: backend/main/react-agent/generateComponents.ts
    - description: Can control the flow of the generation process, run step by step or full flow.
 2. Render Application
    - file: frontend/main/src/GenReactApp.tsx
