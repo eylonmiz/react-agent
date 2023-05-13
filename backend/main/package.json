@@ -1,10 +1,10 @@
 {
-  "name": "@react-gpt/backend-main",
+  "name": "@react-agent/backend-main",
   "version": "0.0.1",
   "description": "React GPT",
   "license": "MIT",
   "author": "eylonmiz <eylon@tutim.io>",
-  "repository": "https://github.com/tutim-io/react-gpt",
+  "repository": "https://github.com/eylonmiz/react-agent",
   "scripts": {
     "dev": "ts-node-dev index.ts"
   },

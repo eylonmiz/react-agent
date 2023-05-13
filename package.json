@@ -1,19 +1,19 @@
 {
-  "name": "@react-gpt/root",
+  "name": "@react-agent/root",
   "description": "React GPT",
   "license": "MIT",
   "author": "eylonmiz <eylon@tutim.io>",
-  "repository": "https://github.com/tutim-io/react-gpt",
+  "repository": "https://github.com/eylonmiz/react-agent",
   "workspaces": [
     "frontend/*",
     "backend/*"
   ],
   "scripts": {
-    "backend:dev": "yarn workspace @react-gpt/backend-main dev",
-    "frontend:tailwind": "yarn workspace @react-gpt/shadcn-ui tailwind && yarn workspace @react-gpt/frontend-main tailwind",
-    "frontend:tailwind:watch": "yarn workspace @react-gpt/shadcn-ui tailwind --watch && yarn workspace @react-gpt/frontend-main tailwind --watch",
-    "frontend:dev": "yarn frontend:tailwind && yarn workspace @react-gpt/frontend-main dev",
-    "frontend:build": "yarn workspace @react-gpt/frontend-main build"
+    "backend:dev": "yarn workspace @react-agent/backend-main dev",
+    "frontend:tailwind": "yarn workspace @react-agent/shadcn-ui tailwind && yarn workspace @react-agent/frontend-main tailwind",
+    "frontend:tailwind:watch": "yarn workspace @react-agent/shadcn-ui tailwind --watch && yarn workspace @react-agent/frontend-main tailwind --watch",
+    "frontend:dev": "yarn frontend:tailwind && yarn workspace @react-agent/frontend-main dev",
+    "frontend:build": "yarn workspace @react-agent/frontend-main build"
   },
   "private": true
 }

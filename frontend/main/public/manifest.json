@@ -1,6 +1,6 @@
 {
-  "name": "ReactGPT",
-  "short_name": "ReactGPT",
+  "name": "ReactAgent",
+  "short_name": "ReactAgent",
   "display": "standalone",
   "start_url": "/",
   "theme_color": "#000000",

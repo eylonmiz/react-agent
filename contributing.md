@@ -1,8 +1,8 @@
 # CONTRIBUTING
 
-## Contributing to React-GPT
+## Contributing to ReactAgent
 
-Thank you for showing an interest in contributing to React-GPT!&#x20;
+Thank you for showing an interest in contributing to ReactAgent!&#x20;
 
 All kinds of contributions are valuable to us. In this guide, we will cover how you can quickly onboard and make your first contribution.
 
@@ -19,7 +19,7 @@ Without said minimal reproduction, we won't be able to investigate all issues, a
 
 ### Pull Request
 
-We encourage contributions to React-GPT's open-source codebase! When contributing, consider first discussing your desired change with our team via GitHub issues or Discord.
+We encourage contributions to ReactAgent's open-source codebase! When contributing, consider first discussing your desired change with our team via GitHub issues or Discord.
 
 When you feel ready, you can compare the 2 branches to discuss and review changes through the New Pull Request
 
@@ -40,7 +40,7 @@ Questions, suggestions, and thoughts are most welcome. Feel free to open a GitHu
 
 ### Ways to contribute
 
-* Try the React-GPT API and platform and **give feedback**
+* Try the ReactAgent API and platform and **give feedback**
 * Tell your friends and tag us on **Twitter**
 * Add **new input types and validations**
 * Share the community with your **use cases**
