@@ -1,16 +1,16 @@
 import { BrowserRouter } from 'react-router-dom';
-import '@react-gpt/shadcn-ui/dist/output.css';
+import '@react-agent/shadcn-ui/dist/output.css';
 import '../dist/output.css';
-import { JsonSkeleton } from '@react-gpt/shadcn-ui';
+import { JsonSkeleton } from '@react-agent/shadcn-ui';
 
-import jsonCompositionExample from './react-gpt/AnalyticsDashboardExample/composition.json';
-import AnalyticsDashboardPageExampleDemo from './react-gpt/AnalyticsDashboardExample/demo';
+import jsonCompositionExample from './react-agent/AnalyticsDashboardExample/composition.json';
+import AnalyticsDashboardPageExampleDemo from './react-agent/AnalyticsDashboardExample/demo';
 
-import landingPageJsonComposition from './react-gpt/SaaSLandingPageExample/composition.json';
-import SaasCrmLandingPageDemo from './react-gpt/SaaSLandingPageExample/demo';
+import landingPageJsonComposition from './react-agent/SaaSLandingPageExample/composition.json';
+import SaasCrmLandingPageDemo from './react-agent/SaaSLandingPageExample/demo';
 
-// import jsonComposition from './react-gpt/AnalyticsDashboard/composition.json';
-// import AnalyticsDashboardPageDemo from './react-gpt/AnalyticsDashboard/demo';
+// import jsonComposition from './react-agent/AnalyticsDashboard/composition.json';
+// import AnalyticsDashboardPageDemo from './react-agent/AnalyticsDashboard/demo';
 
 // Example of generated React component from the JSON composition
 const DashboardExample = () => {

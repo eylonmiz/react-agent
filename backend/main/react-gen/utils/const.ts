@@ -11,4 +11,4 @@ export const DEMO_COMPONENTS_DIR =
 
 export const LOCAL_COMPONENTS_DIR =
   process.env.LOCAL_COMPONENTS_DIR ||
-  path.join(rootDir, "/frontend/main/src/react-gpt");
+  path.join(rootDir, "/frontend/main/src/react-agent");

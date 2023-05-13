@@ -2,7 +2,7 @@ import { ChatBot } from "../utils";
 
 const componentExample = `
 import React from 'react';
-import { ComponentNameOne, ComponentNameTwo } from '@react-gpt/shadcn-ui'
+import { ComponentNameOne, ComponentNameTwo } from '@react-agent/shadcn-ui'
 
 export interface ComponentNameProps {
   {/* Your interface implementation */}
@@ -29,7 +29,7 @@ ${componentExample}
 Instructions:
 Make sure it's a working code, don't assume that I'm going to change or implement anything.
 Assume I have React Typescript setup in my project.
-Don't use any external libraries but @react-gpt/shadcn-ui which is interal library, recharts for charts.
+Don't use any external libraries but @react-agent/shadcn-ui which is interal library, recharts for charts.
 ---
 Return Type:
 return a React component, written in Typescript, using Tailwind CSS.
@@ -64,7 +64,7 @@ export class ReactComponentGenerator {
           Instructions:
           Make sure it's a working code, don't assume that I'm going to change or implement anything.
           Assume I have React Typescript setup in my project.
-          Don't use any external libraries but @react-gpt/shadcn-ui which is interal library, recharts for charts.
+          Don't use any external libraries but @react-agent/shadcn-ui which is interal library, recharts for charts.
           ---
           Return Type:
           return a React component, written in Typescript, using Tailwind CSS.

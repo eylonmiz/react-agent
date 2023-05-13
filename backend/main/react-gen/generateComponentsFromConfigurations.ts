@@ -25,7 +25,7 @@ export const saveComponent =
     userStory,
   }: any) => {
     const depString = dependencies.length
-      ? `import { ${dependencies.join(", ")} } from '@react-gpt/shadcn-ui';\n`
+      ? `import { ${dependencies.join(", ")} } from '@react-agent/shadcn-ui';\n`
       : "";
     const componentExample = `import React from 'react';
 ${depString}
@@ -54,7 +54,7 @@ User Story:
 ${userStory}
 ---
 Instructions:
-Import component dependencies from '@react-gpt/shadcn-ui' library. e.g import { ComponentNameOne, ComponentNameTwo } from '@react-gpt/shadcn-ui';
+Import component dependencies from '@react-agent/shadcn-ui' library. e.g import { ComponentNameOne, ComponentNameTwo } from '@react-agent/shadcn-ui';
 Generate the component ${componentName}, It is part of the user story, use the user story and the skeleton as a reference.
 ---
 Compoponent Composition:

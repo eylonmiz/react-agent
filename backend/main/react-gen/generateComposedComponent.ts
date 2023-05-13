@@ -39,7 +39,7 @@ export const saveComposedComponent =
     const componentExample = `import React from 'react';
 import { ${componentConfiguration.uiComponents.join(
       ", "
-    )} } from '@react-gpt/shadcn-ui'
+    )} } from '@react-agent/shadcn-ui'
 ${dependencies
   .map((CompName: string) => `import ${CompName} from './${CompName}';`)
   .join("\n")}
@@ -58,7 +58,7 @@ export default ${componentName};
 Component Name:
 ${componentName}
 ---
-UI shadn component Dependencies (@react-gpt/shadcn-ui):
+UI shadn component Dependencies (@react-agent/shadcn-ui):
 ${componentConfiguration.uiComponents}
 ---
 UI shadn component Implementations examples:
@@ -81,7 +81,7 @@ User Story:
 ${userStory}
 ---
 Instructions:
-Import component dependencies from '@react-gpt/shadcn-ui' library. e.g import { ComponentNameOne, ComponentNameTwo } from '@react-gpt/shadcn-ui';
+Import component dependencies from '@react-agent/shadcn-ui' library. e.g import { ComponentNameOne, ComponentNameTwo } from '@react-agent/shadcn-ui';
 Generate the component ${componentName}, It is part of the user story, use the user story and the skeleton as a reference.
 ---
 Compoponent Composition:
