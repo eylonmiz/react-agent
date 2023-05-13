@@ -1,7 +1,7 @@
 {
   "name": "@react-agent/frontend-main",
   "version": "0.0.1",
-  "description": "React GPT",
+  "description": "ReactAgent",
   "license": "MIT",
   "author": "eylonmiz <eylon@tutim.io>",
   "repository": "https://github.com/eylonmiz/react-agent",

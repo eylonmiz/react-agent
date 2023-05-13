@@ -1,6 +1,6 @@
 {
   "name": "@react-agent/root",
-  "description": "React GPT",
+  "description": "ReactAgent",
   "license": "MIT",
   "author": "eylonmiz <eylon@tutim.io>",
   "repository": "https://github.com/eylonmiz/react-agent",
