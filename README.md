@@ -17,23 +17,22 @@
     ·
     <a href="https://www.loom.com/share/658adb2869174e81a39a0a2cdcfec4eb">Watch Demo</a>
     ·
-    <a href="https://github.com/eylonmiz/react-agent/pull/1/files">Demo Code Example</a>
+    <a href="https://github.com/eylonmiz/react-agent/pull/7/files">Demo Code Example</a>
     ·
     <a href="https://discord.gg/57JjYNKe">Discord</a>
   </p>
 </p>
 
-
-
-
-
 [![MIT License](https://img.shields.io/github/license/eylonmiz/react-agent)](https://github.com/eylonmiz/react-agent/blob/main/LICENSE) [![Number of GitHub stars](https://img.shields.io/github/stars/eylonmiz/react-agent?logo=github)](https://github.com/eylonmiz/react-agent/stargazers) [![Discord is Live](https://img.shields.io/badge/Discord-Live-green?logo=discord&logoColor=%23fff)](https://discord.gg/57JjYNKe) [![Docs are updated](https://img.shields.io/badge/docs-updated-green?color=blue)](https://docs.tutim.io) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-Launch%20soon-orange?logo=producthunt&logoColor=%23fff)](https://www.producthunt.com/@eylonmiz)
+
+https://github.com/eylonmiz/react-agent/assets/43254163/d2e36b75-2901-4950-a4f6-6a39b1067796
 
 </div>
 
 ---
 ## 📖 Introduction
-ReactAgent is an experimental application that uses the GPT-4 language model to generate React components from user stories. It is built with React, TailwindCSS, Typescript, Radix UI, Shandcn UI, and OpenAI API.
+ReactAgent is an experimental autonomous agent that uses GPT-4 language model to generate and compose React components from user stories. It is built with React, TailwindCSS, Typescript, Radix UI, Shandcn UI, and OpenAI API.
+
 ## 🚀 Features
 - Generate React Components from user stories
 - Compose React Components from existing components
