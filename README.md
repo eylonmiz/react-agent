@@ -1,4 +1,4 @@
-# ReactAgent - The open-source React.js LLM Agent
+# ReactAgent - The open-source React.js Autonomous LLM Agent
 <div align="center">
   <a href="https://reactagent.io" target="_blank">
   <picture>
@@ -8,7 +8,7 @@
 
 
   <p align="center">
-    <h3>The open-source React.js LLM Agent</h3>
+    <h3>The open-source React.js Autonomous LLM Agent</h3>
     <br />
     <a href="https://www.loom.com/share/591fd03b54d04a74a15995815de47c76"><strong>Watch Demo »</strong></a>
     <br />
