@@ -29,8 +29,6 @@
 
 [![MIT License](https://img.shields.io/github/license/eylonmiz/react-agent)](https://github.com/eylonmiz/react-agent/blob/main/LICENSE) [![Number of GitHub stars](https://img.shields.io/github/stars/eylonmiz/react-agent?logo=github)](https://github.com/eylonmiz/react-agent/stargazers) [![Discord is Live](https://img.shields.io/badge/Discord-Live-green?logo=discord&logoColor=%23fff)](https://discord.gg/57JjYNKe) [![Docs are updated](https://img.shields.io/badge/docs-updated-green?color=blue)](https://docs.tutim.io) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-Launch%20soon-orange?logo=producthunt&logoColor=%23fff)](https://www.producthunt.com/@eylonmiz)
 
-https://github.com/eylonmiz/react-agent/assets/43254163/8dabef02-4abe-41ce-8790-302fef4259a2
-  
 </div>
 
 ---
