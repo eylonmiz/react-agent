@@ -19,6 +19,8 @@
     ·
     <a href="https://github.com/eylonmiz/react-agent/pull/7/files">Demo Code Example</a>
     ·
+    <a href="https://docs.reactagent.io">Docs</a>
+    ·
     <a href="https://discord.gg/57JjYNKe">Discord</a>
   </p>
 </p>
@@ -76,7 +78,8 @@ Read the Project Customization Section to learn how to customize and operate the
 ```
 
 ## 📚 Documentation
-- Docs and architecture in architecture folder
+- <a href="https://docs.reactagent.io">Docs Website</a>
+- Some Docs and architecture in architecture folder
 - <a href="https://github.com/eylonmiz/react-agent/blob/main/arch.md">Feature Flow</a>
 - <a href="https://github.com/eylonmiz/react-agent/blob/main/architecture/Design%20Document%20Overview.md">Raw Design Docs</a>
 - <a href="https://github.com/eylonmiz/react-agent/blob/main/personal-note.md">Personal Note</a>
