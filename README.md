@@ -42,6 +42,9 @@ ReactAgent is an experimental autonomous agent that uses GPT-4 language model to
 - Use React, TailwindCSS, Typescript, Radix UI, Shandcn UI
 - Built with Atomic Design Principles
 
+## 😮 Example
+<img src="https://github.com/eylonmiz/react-agent/assets/43254163/e5921e79-140d-4ccb-bbdf-96b2b28e2d77" alt="Example"/>
+
 ## 🌈 Quickstart
 1. Clone repository
 ```bash
