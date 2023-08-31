@@ -39,7 +39,7 @@ ReactAgent is an experimental autonomous agent that uses GPT-4 language model to
 - Generate React Components from user stories
 - Compose React Components from existing components
 - Use a local design system to generate React Components
-- Use React, TailwindCSS, Typescript, Radix UI, Shandcn UI
+- Use React, TailwindCSS, Typescript, Radix UI, Shadcn UI
 - Built with Atomic Design Principles
 
 ## 😮 Example
@@ -63,7 +63,7 @@ echo OPENAI_SECRET_KEY="INSERT_YOUR_OPENAI_SECRET_KEY_VALUE_HERE" >> backend/mai
 ```bash
 yarn install
 ```
-6. Run Backend Script - This script generates the componenets
+6. Run Backend Script - This script generates the components
 ```bash
 yarn backend:dev
 ```
