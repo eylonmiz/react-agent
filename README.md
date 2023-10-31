@@ -33,7 +33,7 @@ https://github.com/eylonmiz/react-agent/assets/43254163/d2e36b75-2901-4950-a4f6-
 
 ---
 ## 📖 Introduction
-ReactAgent is an experimental autonomous agent that uses GPT-4 language model to generate and compose React components from user stories. It is built with React, TailwindCSS, Typescript, Radix UI, Shandcn UI, and OpenAI API.
+ReactAgent is an experimental autonomous agent that uses the GPT-4 language model to generate and compose React components from user stories. It is built with React, TailwindCSS, Typescript, Radix UI, Shandcn UI, and OpenAI API.
 
 ## 🚀 Features
 - Generate React Components from user stories
@@ -55,7 +55,7 @@ git clone git@github.com:eylonmiz/react-agent.git
 cd react-agent
 ```
 3. Get an OpenAI [API Key](https://platform.openai.com/account/api-keys)
-4. Set OPENAI_SECRET_KEY in backend/main .env file (see .env.example) or run the script below
+4. Set OPENAI_SECRET_KEY in the backend/main .env file (see .env.example) or run the script below
 ```bash
 echo OPENAI_SECRET_KEY="INSERT_YOUR_OPENAI_SECRET_KEY_VALUE_HERE" >> backend/main/.env
 ```
@@ -67,7 +67,7 @@ yarn install
 ```bash
 yarn backend:dev
 ```
-7. Run Frontend App to see your components in action
+7. Run the Frontend App to see your components in action
 ```bash
 yarn frontend:dev
 ```
@@ -75,14 +75,14 @@ yarn frontend:dev
 ```bash
 Read the instructions and change the example component to the component you generated
 ```
-9. Read Project Customization Section
+9. Read the Project Customization Section
 ```bash
 Read the Project Customization Section to learn how to customize and operate the project
 ```
 
 ## 📚 Documentation
 - <a href="https://docs.reactagent.io">Docs Website</a>
-- Some Docs and architecture in architecture folder
+- Some Docs and architecture in the architecture folder
 - <a href="https://github.com/eylonmiz/react-agent/blob/main/arch.md">Feature Flow</a>
 - <a href="https://github.com/eylonmiz/react-agent/blob/main/architecture/Design%20Document%20Overview.md">Raw Design Docs</a>
 - <a href="https://github.com/eylonmiz/react-agent/blob/main/personal-note.md">Personal Note</a>
@@ -127,7 +127,7 @@ Read the Project Customization Section to learn how to customize and operate the
 - Component logic control (state, props, context, effects, api calls, etc.)
 ## ⚠️ Limitations
 - The generated code is not production-ready and should be used for prototyping purposes only.
-- Only works well with GPT4, GPT-3.5 is not supported ATM, so make sure you have GPT4 enabled in your OpenAI account.
+- Only works well with GPT4, GPT-3.5 has not supported ATM, so make sure you have GPT4 enabled in your OpenAI account.
 - The output may come with a few bugs and errors, so it is recommended to review and test the code before using it in a production environment, or even running it in a development environment.
 - The first step of the generation process is to convert the user story into a JSON file. This step is not perfect and may result in some inaccuracies or missing information, consider changing the JSON file manually if necessary.
 - Advised to run it step by step, and review the generated code after each step.
