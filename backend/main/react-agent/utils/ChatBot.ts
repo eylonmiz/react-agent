@@ -1,10 +1,5 @@
-import {
-  Configuration,
-  OpenAIApi,
-  ChatCompletionRequestMessage,
-  ChatCompletionResponseMessage,
-  CreateChatCompletionResponseChoicesInner,
-} from "openai";
+import OpenAI from 'openai';
+import { ChatCompletionMessageParam, ChatCompletionUserMessageParam, ChatCompletionSystemMessageParam, } from 'openai/src/resources/chat/completions';
 
 const apiKey = process.env.OPENAI_SECRET_KEY;
 const shouldLog = process.env.OPENAI_LOG === "true";
@@ -128,45 +123,43 @@ function replaceDoubleSpaces(content: string) {
   return result;
 }
 
-const removeSpacesFromMessages = (messages: ChatCompletionRequestMessage[]) => {
+const removeSpacesFromMessages = (messages: ChatCompletionMessageParam[]) => {
   return messages.map((message) => {
     return {
       ...message,
-      content: replaceDoubleSpaces(message.content),
+      content: replaceDoubleSpaces(message.content as string),
     };
   });
 };
 
 class ChatBot {
-  private openai: OpenAIApi;
+  private openai: OpenAI;
   private model: string;
 
   constructor(model: string = defaultModel) {
-    const configuration = new Configuration({
-      apiKey,
-    });
-    this.openai = new OpenAIApi(configuration);
+
+    this.openai = new OpenAI({ apiKey, maxRetries: 100 });
     this.model = model;
+    this.openai.completions.create
   }
 
-  async callChat(
-    messages: ChatCompletionRequestMessage[]
-  ): Promise<CreateChatCompletionResponseChoicesInner[]> {
+  async callChat(messages: ChatCompletionMessageParam[]) {
     const apiMessages = removeSpacesFromMessages(messages);
     if (shouldLog) console.debug(`ChatBot ~ Request:`, apiMessages);
-    const response = await this.openai.createChatCompletion({
+    const params: OpenAI.Chat.ChatCompletionCreateParams = {
       model: this.model,
       messages: apiMessages,
-      // temperature: 0,
-    });
-    if (shouldLog) console.debug(`ChatBot ~ response:`, response.data);
+    }
 
-    const { choices } = response.data;
+    const response = await this.openai.chat.completions.create(params);
+    if (shouldLog) console.debug(`ChatBot ~ response:`, response.choices);
+
+    const choices = response.choices;
     return choices;
   }
 
-  async getResponse(prompt: string): Promise<ChatCompletionResponseMessage> {
-    const apiMessages: ChatCompletionRequestMessage[] = [
+  async getResponse(prompt: string) {
+    const apiMessages: OpenAI.Chat.ChatCompletionMessageParam[] = [
       { role: "system", content: prompt },
     ];
 
@@ -178,7 +171,7 @@ class ChatBot {
   }
 
   async getTypescriptResponse(
-    messages: ChatCompletionRequestMessage[]
+    messages: ChatCompletionMessageParam[]
   ): Promise<any> {
     const choices = await this.callChat(messages);
     const rawMessage = choices[0].message;
@@ -195,9 +188,7 @@ class ChatBot {
     }
   }
 
-  async getJsonResponse(
-    messages: ChatCompletionRequestMessage[]
-  ): Promise<any> {
+  async getJsonResponse(messages: ChatCompletionMessageParam[]): Promise<any> {
     const choices = await this.callChat(messages);
     const rawMessage = choices[0].message;
     if (shouldLog) console.debug(`ChatBot ~ message:`, rawMessage);
